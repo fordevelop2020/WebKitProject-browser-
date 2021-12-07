@@ -31,7 +31,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         let vc = UIAlertController(title: "Open page ..",message: nil, preferredStyle: .actionSheet)
         vc.addAction(UIAlertAction(title: "www.hackingwithswift.com", style: .default, handler: openPage))
         vc.addAction(UIAlertAction(title: "www.apple.com", style: .default, handler: openPage))
-        vc.addAction(UIAlertAction(title: "www.facebook.com", style: .default, handler: openPage))
+        vc.addAction(UIAlertAction(title: "www.google.com", style: .default, handler: openPage))
         vc.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(vc, animated: true)
