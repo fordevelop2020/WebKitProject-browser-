@@ -13,7 +13,7 @@ class ViewController: UITableViewController {
     
 //    var webKit = WKWebView()
 //    var progressBar = UIProgressView()
-    var websites = ["apple.com","www.hackingwithswift.com","google.com"]
+    var websites = ["apple.com","www.google.com","google.com"]
     
 //    override func loadView() {
 //        webKit = WKWebView()
